@@ -8,7 +8,7 @@ public class TestaPontoFlutuante {
 
         double divisao = 3.14 / 2;
         System.out.println(divisao);
-       
+        //Não entrega os decimais
         int outraDivisao = 5/2;
         System.out.println(outraDivisao);
 
