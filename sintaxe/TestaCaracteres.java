@@ -11,6 +11,9 @@ public class TestaCaracteres {
         
         //Vai sair B
 		valor = (char) (valor+1);
-		System.out.println(valor);
+        System.out.println(valor);
+    
+        String palavra = "Testando como isso funciona";
+		System.out.println(palavra);
 	}
 }
