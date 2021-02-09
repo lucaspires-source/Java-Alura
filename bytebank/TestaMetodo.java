@@ -16,5 +16,8 @@ public class TestaMetodo {
 
         contaDoNeymar.transfere(500, contaDoLucas);
         System.out.println(contaDoLucas.saldo);
+
+        contaDoLucas.titular = "Lucas Ribeiro";
+        System.out.println(contaDoLucas.titular);
 	}
 }

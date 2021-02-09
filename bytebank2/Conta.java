@@ -1,14 +1,12 @@
-package bytebank;
-
+package bytebank2;
 
 
 public class Conta {
     double saldo; 
     int agencia;
     int numero;
-    String titular;
-    String cpf;
-    String profissão;
+    Cliente titular;
+
 
 
     public void deposita(double valor) {
