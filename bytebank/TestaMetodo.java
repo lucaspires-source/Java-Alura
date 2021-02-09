@@ -7,5 +7,7 @@ public class TestaMetodo {
 		contaDoLucas.deposita(50);
 		
 		System.out.println(contaDoLucas.saldo);
+        contaDoLucas.saca(300);
+        System.out.println(contaDoLucas.saldo);
 	}
 }

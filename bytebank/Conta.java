@@ -9,7 +9,18 @@ public class Conta {
     String titular;
 
 
-    void deposita(double valor) {
+    public void deposita(double valor) {
         this.saldo = this.saldo + valor;
+    }
+
+    public boolean saca (double valor) {
+	    	
+        if (this.saldo >= valor) {
+            this.saldo = this.saldo - valor;
+            return true;
+        }else {
+            System.out.println("Saldo insuficiente");
+            return false;
+        }
     }
 }
