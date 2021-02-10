@@ -9,5 +9,10 @@ public class TestaValores {
         conta.setNumero(-14);
         
         System.out.println(conta.getAgencia());
+
+        Conta conta2 = new Conta(120, 2301);
+
+
+        System.out.println(Conta.getTotal());
     }
 }
